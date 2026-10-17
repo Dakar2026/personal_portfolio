@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez le portfolio de Aly Sy, développeur web junior.">
+    <title>Aly Sy | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar container" aria-label="Navigation principale">
+            <a href="#accueil" class="logo">Aly<span>.</span></a>
+
+            <button class="menu-toggle" aria-label="Ouvrir le menu"
+                aria-expanded="false" aria-controls="nav-links">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero section" id="accueil">
+            <div class="container hero-content">
+                <div class="hero-photo">
+    <img src="assets/Ma photo.jpg" alt="Photo de Aly Sy">
+</div>
+                <p class="eyebrow">BONJOUR, JE SUIS</p>
+                <section class="hero section" id="accueil">
+<h1>Aly Sy</h1>
+<h2>Développeur web junior <span> | Créatif & passionné</span></h2>
+<p class="hero-description">
+    Je crée des expériences web modernes, élégantes et adaptées
+    à tous les écrans. Je développe mes compétences en HTML, CSS
+    et JavaScript pour transformer des idées en projets concrets.
+</p>
+                <div class="hero-buttons">
+                    <a href="#projets" class="btn btn-primary">Voir mes projets →</a>
+                    <a href="#contact" class="btn btn-outline">Me contacter</a>
+                    <a
+    href="https://wa.me/221773131620"
+    class="whatsapp-button"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+    Contacter sur WhatsApp
+</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="apropos">
+            <div class="container">
+                <p class="eyebrow">QUI SUIS-JE ?</p>
+                <h2 class="section-title">À propos de moi</h2>
+                <div class="about-content">
+                    <div class="profile-placeholder" aria-label="Emplacement de ma photo">
+                        AS
+                    </div>
+                    <div>
+                        <h3>Passionné par le développement web</h3>
+                        <p>
+                            Je suis Aly Sy, en formation dans le domaine du numérique.
+                            J'apprends à créer des interfaces web avec HTML, CSS
+                            et JavaScript. J'aime apprendre, résoudre des problèmes
+                            et transformer des idées en projets concrets.
+                        </p>
+                        <a href="assets/cv-aly-sy.pdf" class="btn btn-primary" download>
+                            Télécharger mon CV ↓
+                        </a>
+                        <p class="small-note">
+                            Ajoute ton CV PDF dans le dossier assets pour activer
+                            le téléchargement.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-alt" id="competences">
+            <div class="container">
+                <p class="eyebrow">CE QUE J'APPRENDS</p>
+                <h2 class="section-title">Mes compétences</h2>
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <h3>HTML</h3>
+                        <p>Structure sémantique des pages web.</p>
+                    </article>
+                    <article class="skill-card">
+                        <h3>CSS</h3>
+                        <p>Design, Flexbox, Grid et responsive design.</p>
+                    </article>
+                    <article class="skill-card">
+                        <h3>JavaScript</h3>
+                        <p>Interactions, événements et manipulation du DOM.</p>
+                    </article>
+                    <article class="skill-card">
+                        <h3>Outils</h3>
+                        <p>VS Code, Git, GitHub et outils de développement.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="projets">
+            <div class="container">
+                <p class="eyebrow">MES RÉALISATIONS</p>
+                <h2 class="section-title">Mes projets</h2>
+
+                <div class="filter-buttons" aria-label="Filtrer les projets">
+                    <button class="filter-btn active" data-filter="tous">Tous</button>
+                    <button class="filter-btn" data-filter="html">HTML / CSS</button>
+                    <button class="filter-btn" data-filter="js">JavaScript</button>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card" data-tech="js">
+                        <div class="project-visual visual-one">♫</div>
+                        <div class="project-info">
+                            <p class="project-tag">HTML · CSS · JavaScript</p>
+                            <h3>VibeTunes</h3>
+                            <p>Une interface musicale avec recherche de titres et lecteur audio.</p>
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                Voir le projet ↗️
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-tech="html">
+                        <div class="project-visual visual-two">🛍️</div>
+                        <div class="project-info">
+                            <p class="project-tag">HTML · CSS</p>
+                            <h3>SmartShop</h3>
+                            <p>Une vitrine de boutique en ligne moderne et responsive.</p>
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                Voir le projet ↗️
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-tech="js">
+                        <div class="project-visual visual-three">🎬</div>
+                        <div class="project-info">
+                            <p class="project-tag">HTML · CSS · JavaScript</p>
+                            <h3>VibeFlix</h3>
+                            <p>Une interface cinéma pour découvrir des films.</p>
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                Voir le projet ↗️
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-alt" id="contact">
+            <div class="container contact-container">
+                <p class="eyebrow">PARLONS DE VOTRE PROJET</p>
+                <h2 class="section-title">Me contacter</h2>
+                <p>Une question ou une idée ? Envoyez-moi un message.</p>
+
+                <form id="contact-form" novalidate>
+                    <div class="form-group">
+                        <label for="nom">Votre nom</label>
+                        <input type="text" id="nom" name="nom"
+                            placeholder="Entrez votre nom" required>
+                        <small class="error-message" id="nom-error"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Votre adresse e-mail</label>
+                        <input type="email" id="email" name="email"
+                            placeholder="exemple@email.com" required>
+                        <small class="error-message" id="email-error"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Votre message</label>
+                        <textarea id="message" name="message" rows="5"
+                            placeholder="Écrivez votre message (10 caractères minimum)"
+                            required></textarea>
+                        <small class="error-message" id="message-error"></small>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Envoyer le message →</button>
+                    <p id="form-feedback" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>© <span id="year">2026</span> Aly Sy — Tous droits réservés.</p>
+            <a href="#accueil">Retour en haut ↑</a>
+        </div>
+    </footer>
+    <footer class="footer">
+    <p>Créé avec ❤️ par <strong>Aly Sy</strong></p>
+    <p>© 2026 — Tous droits réservés.</p>
+</footer>
+    <button id="back-to-top" aria-label="Retour en haut">↑</button>
+    <script>
+    document.getElementById("back-to-top").addEventListener("click", function () {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+</script>
+
+</body>
+</html>
